@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/jennybc/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jennybc/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
@@ -31,7 +32,7 @@ library(libminer)
 lib_summary()
 #>                                                                Library
 #> 1 /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library
-#> 2                     /private/tmp/Rtmpt4CQOp/temp_libpathe46375da9dc4
+#> 2                     /private/tmp/RtmpnsXHmm/temp_libpathf95024731ebe
 #> 3                             /Users/jenny/Library/R/arm64/4.4/library
 #>   n_packages
 #> 1         29
