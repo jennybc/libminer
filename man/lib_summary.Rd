@@ -6,9 +6,12 @@
 \usage{
 lib_summary(sizes = FALSE)
 }
+\arguments{
+\item{sizes}{Logical. Requests the size of the package library on disk.}
+}
 \value{
 A data.frame containing the count of packages in each of the user's
-libraries
+libraries. If \code{sizes} is \code{TRUE}, also gives library size.
 }
 \description{
 Provides a brief summary of the package libraries on your machine. I'm so

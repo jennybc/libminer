@@ -3,8 +3,10 @@
 #' Provides a brief summary of the package libraries on your machine. I'm so
 #' excited to have written this!
 #'
+#' @param sizes Logical. Requests the size of the package library on disk.
+#'
 #' @return A data.frame containing the count of packages in each of the user's
-#'   libraries
+#'   libraries. If `sizes` is `TRUE`, also gives library size.
 #' @export
 #'
 #' @examples
