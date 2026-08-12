@@ -9,3 +9,5 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
+URL: https://github.com/jennybc/libminer
+BugReports: https://github.com/jennybc/libminer/issues
