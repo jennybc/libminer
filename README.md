@@ -31,8 +31,17 @@ library(libminer)
 lib_summary()
 #>                                                          Library n_packages
 #> 1 /Library/Frameworks/R.framework/Versions/4.6/Resources/library         29
-#> 2              /private/tmp/RtmpzT6oJx/temp_libpath1644c1716f4b8          1
+#> 2              /private/tmp/RtmpzT6oJx/temp_libpath1644c3fd8e316          1
 #> 3                       /Users/jenny/Library/R/arm64/4.6/library        165
 # specify `sizes = TRUE` to calculate the total size on disk of your packages
-#lib_summary(sizes = TRUE)
+
+lib_summary(sizes = TRUE)
+#>                                                          Library n_packages
+#> 1 /Library/Frameworks/R.framework/Versions/4.6/Resources/library         29
+#> 2              /private/tmp/RtmpzT6oJx/temp_libpath1644c3fd8e316          1
+#> 3                       /Users/jenny/Library/R/arm64/4.6/library        165
+#>   lib_size
+#> 1   76.67M
+#> 2   16.13K
+#> 3  589.87M
 ```

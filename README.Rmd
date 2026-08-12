@@ -39,5 +39,6 @@ optionally with the total sizes, use the `lib_summary()` function:
 library(libminer)
 lib_summary()
 # specify `sizes = TRUE` to calculate the total size on disk of your packages
-#lib_summary(sizes = TRUE)
+
+lib_summary(sizes = TRUE)
 ```
